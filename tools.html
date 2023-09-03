@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gergely Suba&#39;s blog</title>
-  <meta name="description" content="domain-specific languages (DSL),model-based software development,Eclipse based tool development">
-  <link rel="canonical" href="http://localhost:4000/">
+  <title>Tools</title>
+  <meta name="description" content="An optional about page for Scriptor Jekyll theme">
+  <link rel="canonical" href="http://localhost:4000/tools">
   <link rel="alternate" type="application/rss+xml" title="Gergely Suba&#39;s blog Feed"
     href="http://localhost:4000/feed.xml">
   
@@ -21,7 +21,7 @@
     <div class="inner">
       <header class="site-header">
   
-  <h1 class="site-title"><a class="logo-text" href="/">Gergely Suba's blog</a></h1>
+  <p class="site-title"><a class="logo-text" href="/">Gergely Suba's blog</a></p>
   
   <nav class="site-navigation">
     <div class="site-navigation-wrap">
@@ -30,8 +30,8 @@
         
         
         
-        <li class="menu-item nav-current">
-          <a class="nav-current" href="/">Home</a>
+        <li class="menu-item ">
+          <a class="" href="/">Home</a>
         </li>
         
         
@@ -61,57 +61,50 @@
 </header>
 
 
-<div class="site-description fadeInDown delay_05s">
-  <p>domain-specific languages (DSL),<br/>model-based software development,<br/>Eclipse based tool development</p>
-</div><!-- .site-description -->
-
       <main class="main-content fadeInDown delay_075s">
-
-  
   <article class="post">
     <header class="post-header">
-      <time class="post-date" datetime="2023-09-03">September 3, 2023</time>
-      <h2 class="post-title"><a href="/dsl-experience" rel="bookmark">Domain-specific language (DSL) - experiences and some related blogs</a></h2>
-      <div class="post-meta">
-        By <span class="post-author">Gergely Suba</span><span
-          class="post-tags"> in
-          <a href="/tags/#dsl" rel="tag">dsl</a></span>
-      </div><!-- .post-meta -->
+      <h1 class="post-title">Tools</h1>
       
     </header><!-- .post-header -->
     <div class="post-content">
-      
-      <p>I’ve been using the domain-specific language concept since the beginning of my PhD studies.
-During the <a href="https://repozitorium.omikk.bme.hu/handle/10890/13123?locale-attribute=en">thesis</a> work, I developed my first DSL: an intermediate language (IL) based on the single-static assignment (SSA) form.</p>
+      <p>Here is the (non exhaustive) list of the languages, libraries, applications and tools I used in the last few years.</p>
 
-<p>Some years later, the company I work (<a href="https://www.prolan.hu/locale/en">Prolan</a>) started a huge project: to develop an electronic railway interlocking system, called <a href="https://www.prolan.hu/hu/hirek/proris-e-vke">PRORIS-E</a>. As part of this project my team designed and implemented a higher and a lower level domain-specific language:</p>
+<h2 id="eclipse-modeling-ecosystem">Eclipse modeling ecosystem</h2>
+
 <ul>
-  <li>PIL (Prolan Interlocking Language): to define railway interlocking algorithms</li>
-  <li>XSML (eXtended State Machine Language): to describe the static and dynamic (state machine) aspects of network protocols</li>
+  <li><a href="https://www.eclipse.org/modeling/emf/">EMF</a> (Eclipse Modeling Framework):<br />building tools and applications based on a structured data model, this is the core of the modeling ecosystem</li>
+  <li><a href="https://www.eclipse.org/Xtext/">Xtext</a>:<br />framework for developing domain-specific languages</li>
+  <li><a href="https://www.eclipse.org/xtend/">Xtend</a>:<br />general-purpose language based on Java, best practice for code generation using the template expressions</li>
+  <li><a href="https://www.eclipse.org/emf-parsley/">EMF Parsley</a>:<br />UI components (trees, tables, forms, views, editors)</li>
+  <li><a href="https://eclipse.dev/sirius/">Sirius</a>:<br />to develop a graphical modeling tool easily</li>
+  <li><a href="https://www.eclipse.org/graphiti/">Graphiti</a>:<br />a graphical tooling services and functions based on EMF and GEF</li>
+  <li><a href="https://www.eclipse.org/viatra/">VIATRA</a>:<br />model query and transformation infrastructure</li>
 </ul>
 
-<p>In all of these DSL projects Java and the related plugins of the Eclipse ecosystem have been used: 
-<a href="https://www.eclipse.org/modeling/emf/">EMF</a>, 
-<a href="https://www.eclipse.org/Xtext/">Xtext</a>, 
-<a href="https://www.eclipse.org/xtend/">Xtend</a> and
-<a href="https://www.eclipse.org/viatra/">VIATRA</a>.</p>
+<h2 id="utilities">Utilities</h2>
 
-<p>Some important blogs about DSLs and the Eclipse modeling framework:</p>
 <ul>
-  <li><a href="https://martinfowler.com/dsl.html">Martin Fowler</a></li>
-  <li><a href="https://tomassetti.me/domain-specific-languages/">Federico Tomassetti</a></li>
-  <li><a href="https://zarnekow.blogspot.com/">Sebastian Zarnekow</a></li>
-  <li><a href="https://ed-merks.blogspot.com/">Ed Merks</a></li>
-  <li><a href="https://www.lorenzobettini.it/">Lorenzo Bettini</a></li>
+  <li><a href="https://www.jenkins.io/">Jenkins</a>:<br />automation server with many plugins</li>
+  <li><a href="https://www.sonatype.com/products/sonatype-nexus-oss">Nexus</a>:<br />repository for maven/gradle artifacts</li>
+  <li><a href="https://www.sonarsource.com/products/sonarlint/">SonarLint</a>:<br />IDE extension to ensure code quality and security</li>
+  <li><a href="https://www.eclemma.org/">EclEmma</a>:<br />Java code coverage tool for Eclipse</li>
+  <li><a href="https://graphviz.org/">Graphviz</a>:<br />graph visualization software (it’s amazing!)</li>
+  <li><a href="https://www.wireshark.org/">Wireshark</a>:<br />network protocol analyzer with extension capability</li>
 </ul>
 
-      
+<h2 id="general-java-development">General Java development</h2>
+
+<ul>
+  <li><a href="https://openjdk.org/projects/jdk/17/">Java 17</a>:<br />latest LTS version of Java platform</li>
+  <li><a href="https://maven.apache.org/">Maven</a>:<br />software project management tool</li>
+  <li><a href="https://spring.io/">Spring</a>:<br />most popular backand framework for Java</li>
+  <li><a href="https://projectlombok.org/">lombok</a>:<br />Java annotations for convenient development, reducing boilerplate codes</li>
+  <li><a href="https://siom79.github.io/japicmp/">japicmp</a>:<br />For java library development (or usage) this is very advantageous: it compares two versions of a jar archive, and makes a detailed report of the results</li>
+</ul>
+
     </div><!-- .post-content -->
   </article><!-- .post -->
-  
-
-  
-
 </main><!-- .site-main -->
       <footer class="site-footer">
   <div class="offsite-links">

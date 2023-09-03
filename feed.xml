@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Gergely Suba&apos;s blog</title>
+        <description>domain-specific languages (DSL),&lt;br/&gt;model-based software development,&lt;br/&gt;Eclipse based tool development</description>
+        <link>http://localhost:4000/</link>
+        <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Sun, 03 Sep 2023 23:16:48 +0200</pubDate>
+        <lastBuildDate>Sun, 03 Sep 2023 23:16:48 +0200</lastBuildDate>
+        <generator>Jekyll v4.0.1</generator>
+        
+            <item>
+                <title>Domain-specific language (DSL) - experiences and some related blogs</title>
+                <description>&lt;p&gt;I’ve been using the domain-specific language concept since the beginning of my PhD studies.
+During the &lt;a href=&quot;https://repozitorium.omikk.bme.hu/handle/10890/13123?locale-attribute=en&quot;&gt;thesis&lt;/a&gt; work, I developed my first DSL: an intermediate language (IL) based on the single-static assignment (SSA) form.&lt;/p&gt;
+
+&lt;p&gt;Some years later, the company I work (&lt;a href=&quot;https://www.prolan.hu/locale/en&quot;&gt;Prolan&lt;/a&gt;) started a huge project: to develop an electronic railway interlocking system, called &lt;a href=&quot;https://www.prolan.hu/hu/hirek/proris-e-vke&quot;&gt;PRORIS-E&lt;/a&gt;. As part of this project my team designed and implemented a higher and a lower level domain-specific language:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;PIL (Prolan Interlocking Language): to define railway interlocking algorithms&lt;/li&gt;
+  &lt;li&gt;XSML (eXtended State Machine Language): to describe the static and dynamic (state machine) aspects of network protocols&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In all of these DSL projects Java and the related plugins of the Eclipse ecosystem have been used: 
+&lt;a href=&quot;https://www.eclipse.org/modeling/emf/&quot;&gt;EMF&lt;/a&gt;, 
+&lt;a href=&quot;https://www.eclipse.org/Xtext/&quot;&gt;Xtext&lt;/a&gt;, 
+&lt;a href=&quot;https://www.eclipse.org/xtend/&quot;&gt;Xtend&lt;/a&gt; and
+&lt;a href=&quot;https://www.eclipse.org/viatra/&quot;&gt;VIATRA&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Some important blogs about DSLs and the Eclipse modeling framework:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://martinfowler.com/dsl.html&quot;&gt;Martin Fowler&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://tomassetti.me/domain-specific-languages/&quot;&gt;Federico Tomassetti&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://zarnekow.blogspot.com/&quot;&gt;Sebastian Zarnekow&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ed-merks.blogspot.com/&quot;&gt;Ed Merks&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.lorenzobettini.it/&quot;&gt;Lorenzo Bettini&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+                <pubDate>Sun, 03 Sep 2023 00:00:00 +0200</pubDate>
+                <link>http://localhost:4000/dsl-experience</link>
+                <guid isPermaLink="true">http://localhost:4000/dsl-experience</guid>
+                
+                <category>dsl</category>
+                
+                
+            </item>
+        
+    </channel>
+</rss>
